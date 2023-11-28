@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 30px 20px;
+    font-size: 2em;
+    font-family: monospace;
+    border: none;
+    background: rebeccapurple;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.move {
+    transform: translate(calc(100vw - 100%), calc(100vh - 100%));
+}
+
